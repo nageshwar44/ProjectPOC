@@ -1,0 +1,19 @@
+.nav{
+  height: 40%;
+}
+.side-nav-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.font-bold{
+ 
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+

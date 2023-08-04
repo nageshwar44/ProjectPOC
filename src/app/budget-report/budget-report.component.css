@@ -1,0 +1,32 @@
+.activity {
+    position: relative;
+    padding-left: 30px; /* Adjust the padding to move content away from the line */
+  }
+  
+  
+  
+  /* Additional styles for formatting the content */
+  .activity h2 {
+    margin-top: 0;
+  }
+  
+  .activity p {
+    margin-bottom: 10px;
+  }
+  
+  b{
+    font-size:x-large;
+    color: rgb(12, 12, 43);
+}
+.card-options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+  }
+  .custom-card {
+    width: 500px;height: 800px; padding-right: 15px;
+    border-radius: 3px;
+    margin-top: 22px;
+ 
+  }

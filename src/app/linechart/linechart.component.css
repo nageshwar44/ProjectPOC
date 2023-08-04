@@ -1,0 +1,20 @@
+h4{
+font-weight: 400;
+align-content: center;
+background-color: rgb(243, 244, 245);
+}
+b{
+    font-size:x-large;
+    color: rgb(12, 12, 43);
+}
+.card-options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+  }
+  .custom-card {
+    width: 600px;height: 1000px; padding: 10px;
+    border-radius: 3px ;
+    
+  }

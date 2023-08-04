@@ -1,0 +1,68 @@
+app-menubar{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 4rem;
+  z-index: 2;
+}
+main{
+  position: absolute;
+  width: 100%;
+  top: 4rem;
+  z-index: 1;
+  
+  
+}
+.display-area{
+  position: absolute;
+  left: 250px;
+  top: 0%;
+  width: calc(100% - 250px);
+ 
+}
+/* body{
+  background-color: rgb(136, 142, 148);
+} */
+.footer {
+  position:fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 5rem;
+  z-index: 2;
+  background-color: rgb(233, 236, 243);
+  color: rgb(20, 19, 19);
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #a6cde4;
+}
+app-sidebar{
+  position: fixed;
+  left: 0rem;
+  width: 0px;
+  height: calc(100vh);
+  box-shadow: 0px 0px 10px rgba(rgb(10, 10, 10), rgb(8, 8, 8), rgb(10, 10, 10));
+  /* border-top:2px solid rgb(226, 220, 220); */
+  /* border-right:8px solid rgb(218, 214, 214); */
+  overflow-x: hidden;
+  white-space: nowrap;
+} 
+.app-side-nav-open{
+  
+  width:250px;
+  
+}
+.container-fluid {
+  background-color: #968f8f; /* Replace this with your desired background color */
+  padding: 3px;
+}
+.display-area{
+  position: absolute;
+  left: 0px;
+  width: calc(100%);
+  transition: left 250ms ease-in;
+}
+.display-area-shrink{
+  width: calc(100%-250px);
+  left: 250px;
+}
+

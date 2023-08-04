@@ -1,0 +1,17 @@
+/* .padding{
+    padding: 5px;
+
+} */
+app-cards{
+    padding: 0px;
+    
+}
+.pagetitle{
+    padding-top: 10px;
+}
+.breadcrumb{
+    background-color: white;
+}
+.custom-container {
+    max-width: 500px; /* Set the desired maximum width here */
+  }

@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9f1f1;
+  }
+
+  .error-container {
+    text-align: center;
+  }
+
+  .error-code {
+    font-size: 120px;
+    color: #2d0fd6;
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .btn-home {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
